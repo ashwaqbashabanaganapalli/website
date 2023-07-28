@@ -1,0 +1,5 @@
+from ubuntu
+run apt update
+run apt install apache2 -y
+entrypoint apachectl -d FOREGROund
+copy . /var/www/html/
